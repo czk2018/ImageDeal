@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageDeal</string>
+
+    <string name="load_src_capture">拍照</string>
+    <string name="load_src_image">图片</string>
+    <string name="load_src_gif">GIF</string>
+    <string name="translate_image">转换</string>
+</resources>

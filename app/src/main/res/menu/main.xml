@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/id_src_capture"
+        android:orderInCategory="100"
+        android:title="@string/load_src_capture"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/id_src_image"
+        android:orderInCategory="100"
+        android:title="@string/load_src_image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/id_src_gif"
+        android:orderInCategory="100"
+        android:title="@string/load_src_gif"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/id_translate"
+        android:orderInCategory="100"
+        android:title="@string/translate_image"
+        app:showAsAction="never" />
+
+</menu>
