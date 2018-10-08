@@ -164,6 +164,8 @@ public class PhotoActivity extends AppCompatActivity {
                     photo.compress(Bitmap.CompressFormat.JPEG, 100, outputStream);
                     outputStream.flush();
                     outputStream.close();
+
+                    displayImage(file.getAbsolutePath());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -205,10 +207,10 @@ public class PhotoActivity extends AppCompatActivity {
                     Uri pictureUri;
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                         pictureUri = FileProvider.getUriForFile(this, "com.jr.fileprovider", pictureFile);
-                        Log.e(TAG,"picURI="+pictureUri.toString());
                     } else {
                         pictureUri = Uri.fromFile(pictureFile);
                     }
+                    Log.e(TAG,"picURI="+pictureUri.toString());
                     startPhotoZoom(pictureUri);
                 }
                 break;
