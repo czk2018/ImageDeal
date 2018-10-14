@@ -1,4 +1,4 @@
-package com.jr.util;
+package com.jr.test.util;
 
 import android.content.ContentUris;
 import android.content.Context;

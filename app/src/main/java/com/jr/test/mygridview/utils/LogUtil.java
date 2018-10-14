@@ -1,4 +1,4 @@
-package com.jr.mygridview.utils;
+package com.jr.test.mygridview.utils;
 
 public class LogUtil {
 

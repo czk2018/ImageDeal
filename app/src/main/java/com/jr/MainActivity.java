@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jr.image.PhotoActivity;
+import com.jr.test.image.PhotoActivity;
 
 public class MainActivity extends AppCompatActivity {
 

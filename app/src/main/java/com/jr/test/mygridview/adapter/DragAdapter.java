@@ -1,8 +1,7 @@
-package com.jr.mygridview.adapter;
+package com.jr.test.mygridview.adapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import android.content.Context;
 import android.view.LayoutInflater;

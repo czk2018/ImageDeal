@@ -1,4 +1,4 @@
-package com.jr.mygridview.view;
+package com.jr.test.mygridview.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,9 +20,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jr.R;
-import com.jr.mygridview.adapter.DragAdapter;
-import com.jr.mygridview.toole.DataTools;
-import com.jr.mygridview.utils.LogUtil;
+import com.jr.test.mygridview.adapter.DragAdapter;
+import com.jr.test.mygridview.toole.DataTools;
+import com.jr.test.mygridview.utils.LogUtil;
 
 public class DragGrid extends GridView {
 	/** 点击时候的X位置 */

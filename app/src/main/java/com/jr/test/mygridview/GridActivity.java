@@ -1,12 +1,10 @@
-package com.jr.mygridview;
+package com.jr.test.mygridview;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
-import android.graphics.Bitmap.CompressFormat;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -25,8 +23,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.jr.R;
-import com.jr.mygridview.adapter.DragAdapter;
-import com.jr.mygridview.view.DragGrid;
+import com.jr.test.mygridview.adapter.DragAdapter;
+import com.jr.test.mygridview.view.DragGrid;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;

@@ -1,4 +1,4 @@
-package com.jr.image;
+package com.jr.test.image;
 
 import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
